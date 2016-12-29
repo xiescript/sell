@@ -3,14 +3,17 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from './App';
+import VueResource from 'vue-resource';
 
 import Goods from 'components/goods/Goods';
 import Ratings from 'components/ratings/Ratings';
 import Seller from 'components/seller/Seller';
 
 import './common/style/base.css';
+import './common/style/Icon.css';
 
 Vue.use(VueRouter);
+Vue.use(VueResource);
 
 //配置路由
 var routes = [
